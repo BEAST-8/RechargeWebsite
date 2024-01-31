@@ -1,0 +1,22 @@
+
+.user-type-container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 60px;
+    background-color: rgb(199, 192, 182);
+    border: 2px solid #91e994;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(76, 175, 80, 0.2);
+  }
+  
+  button {
+    padding: 10px 60px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button.active {
+    background-color: #2980b9;
+  }
